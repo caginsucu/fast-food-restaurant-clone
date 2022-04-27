@@ -363,3 +363,145 @@ nav ul li a:hover::before {
     object-fit: cover;
 
 }
+
+/* --------- */
+
+.form {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.label {
+    color: var(--black);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.form-container {
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+    /* background-color: red; */
+    display: flex;
+    padding: 3rem 0;
+    column-gap: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+input {
+
+    padding: 1rem 1.2rem;
+    color: rgba(0, 0, 0, 0.589);
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: green;
+
+}
+
+map iframe {
+    border-radius: 50px;
+}
+
+.form-btn {
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 1rem 3rem;
+}
+
+/* ------------ */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    /* background-color: red; */
+    background-color: var(--black);
+}
+
+.footer-container {
+    width: 90%;
+    height: 90%;
+    /* background-color: blue; */
+    margin: 0 auto;
+}
+
+.footer-info {
+    height: 80%;
+    text-align: center;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-contact {
+    width: 30%;
+    padding: 1rem 3rem;
+    line-height: 1.7rem;
+}
+
+.info-contact h3 {
+    margin-bottom: 0.9rem;
+}
+
+.info-brand {
+
+    width: 40%;
+    padding: 1rem;
+}
+
+.info-brand h2 {
+    margin-bottom: 0.9rem;
+}
+
+.info-brand p {
+    font-size: 0.8rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+
+.social i {
+    cursor: pointer;
+}
+
+.info-hours {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 1rem 3rem;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
