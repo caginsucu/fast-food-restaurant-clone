@@ -32,6 +32,18 @@
         flex-direction: column;
         gap: 2rem;
     }
+
+    .hmbg-svg {
+        display: none;
+    }
+
+    .about-us {
+        justify-content: center;
+    }
+
+    .about-text {
+        width: 80%;
+    }
 }
 
 /* -------------- */
