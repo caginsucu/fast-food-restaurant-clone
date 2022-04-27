@@ -3,6 +3,10 @@
         font-size: 14px;
     }
 
+    .hero-section>p {
+        font-size: 1.3rem;
+    }
+
     .container {
         justify-content: space-between;
     }
@@ -14,5 +18,40 @@
 
     .hamburger-nav {
         display: inline-block;
+    }
+
+    .discount-cards {
+        width: 80% !important;
+    }
+
+    .discount-sec {
+        padding: 1.875rem 0;
+    }
+
+    .discount-sec .discount {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+/* -------------- */
+
+@media (max-width: 670px) {
+    .hero-section>p {
+        font-size: 1.2rem;
+    }
+
+    .discount-sec {
+        padding: 1.875rem 0;
+    }
+
+    .discount-sec .discount {
+        width: 100%;
+    }
+
+    .discount-cards {
+        width: 100%;
+        padding: 20px 0;
+        margin: 0;
     }
 }
