@@ -1,0 +1,18 @@
+@media (max-width: 900px) {
+    html {
+        font-size: 14px;
+    }
+
+    .container {
+        justify-content: space-between;
+    }
+
+    .navigations,
+    .btn {
+        display: none;
+    }
+
+    .hamburger-nav {
+        display: inline-block;
+    }
+}
